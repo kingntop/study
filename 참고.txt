@@ -1,0 +1,26 @@
+[관리자]
+- 로그인 백그라운드 
+.t-Login-bg {
+    /* body 요소의 배경에 이미지를 설정합니다. */
+    background-image: url('#APP_FILES#background.jpg');
+    /* 배경 이미지의 크기를 설정합니다. */
+    background-size: cover;
+    /* 배경 이미지를 센터 정렬합니다. */
+    background-position: center;
+    /* 배경 이미지를 반복하지 않도록 설정합니다. */
+    background-repeat: no-repeat;
+}
+
+[PC]
+ - 테마 롤러 
+/* Import NotoSansKR font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+/* Apply font families */
+body {
+  font-family: 'Noto Sans KR', 'Noto Sans JP', '돋움', 'Dotum', 'AppleGothic', 'Tahoma', sans-serif;
+}
+
+
+rownum <= 4
+and substr(location,1,2) = '경북'
