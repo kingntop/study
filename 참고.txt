@@ -21,6 +21,28 @@ body {
   font-family: 'Noto Sans KR', 'Noto Sans JP', '돋움', 'Dotum', 'AppleGothic', 'Tahoma', sans-serif;
 }
 
+[한국여행 100선 탭]
 
 rownum <= 4
 and substr(location,1,2) = '경북'
+
+rownum <= 4
+and substr(location,1,2) = '전남'
+
+rownum <= 4
+and substr(location,1,2) = '경기'
+
+[지역별 50선]
+substr(location,1,2) in ('서울', '경기', '인천')
+and rownum < 4
+
+substr(location,1,2) in ('경북', '경남', '부산')
+and rownum < 4
+
+substr(location,1,2) in ('충남', '충북', '광주')
+and rownum < 4
+
+
+ <img class="u-pullRight margin-left-lg" src="&IMAGE_URL.">
+ <span class="u-lineclamp-4"> &REMARK. </span>
+ 
